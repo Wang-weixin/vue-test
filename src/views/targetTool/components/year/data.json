@@ -1,0 +1,114 @@
+[
+  {
+    "annualField": 6,
+    "sourceId": null,
+    "sourceType": "5",
+    "pAnnualId": 0,
+    "annualId": 1,
+    "annualGoal": "带家人去旅游",
+    "startDate": "2020-06-29",
+    "endDate": "2021-06-29",
+    "reachState": "1",
+    "reachDate": "2020-06-29",
+    "children": [
+      {
+        "annualField": 6,
+        "sourceId": null,
+        "sourceType": "5",
+        "pAnnualId": 6,
+        "annualId": 11,
+        "annualGoal": "去雪山",
+        "startDate": "2020-06-29",
+        "endDate": "2021-06-29",
+        "reachState": "1",
+        "reachDate": "2020-06-29"
+      },
+      {
+        "annualField": 6,
+        "sourceId": null,
+        "sourceType": "5",
+        "pAnnualId": 6,
+        "annualId": 12,
+        "annualGoal": "去海边",
+        "startDate": "2020-06-29",
+        "endDate": "2021-06-29",
+        "reachState": "1",
+        "reachDate": "2020-06-29",
+        "children": [
+          {
+            "annualField": 6,
+            "sourceId": null,
+            "sourceType": "6",
+            "pAnnualId": 6,
+            "annualId": 121,
+            "annualGoal": "厦门",
+            "startDate": "2020-06-29",
+            "endDate": "2021-06-29",
+            "reachState": "0",
+            "reachDate": "2020-06-29"
+          },
+          {
+            "annualField": 6,
+            "sourceId": null,
+            "sourceType": "6",
+            "pAnnualId": 6,
+            "annualId": 120,
+            "annualGoal": "三亚",
+            "startDate": "2020-06-29",
+            "endDate": "2021-06-29",
+            "reachState": "0",
+            "reachDate": "2020-06-29"
+          },
+          {
+            "annualField": 6,
+            "sourceId": null,
+            "sourceType": "9",
+            "pAnnualId": 6,
+            "annualId": 122,
+            "annualGoal": "青岛",
+            "startDate": "2020-06-29",
+            "endDate": "2021-06-29",
+            "reachState": "1",
+            "reachDate": "2020-06-29"
+          },
+          {
+            "annualField": 6,
+            "sourceId": null,
+            "sourceType": "11",
+            "pAnnualId": 6,
+            "annualId": 123,
+            "annualGoal": "大连",
+            "startDate": "2020-06-29",
+            "endDate": "2021-06-29",
+            "reachState": "1",
+            "reachDate": "2020-06-29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "annualField": 6,
+    "sourceId": null,
+    "sourceType": "6",
+    "pAnnualId": 0,
+    "annualId": 2,
+    "annualGoal": "游泳跑步",
+    "startDate": "2020-06-29",
+    "endDate": "2021-06-29",
+    "reachState": "0",
+    "reachDate": "2020-06-29"
+  }, 
+  {
+    "annualField": 6,
+    "sourceId": null,
+    "sourceType": "9",
+    "pAnnualId": 0,
+    "annualId": 3,
+    "annualGoal": "自我升华",
+    "startDate": "2020-06-29",
+    "endDate": "2021-06-29",
+    "reachState": "1",
+    "reachDate": "2020-06-29"
+  }
+]

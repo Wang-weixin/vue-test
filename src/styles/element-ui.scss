@@ -1,0 +1,217 @@
+ //覆盖一些element-ui样式
+
+ // table样式
+.el-table.table-main{
+  &.el-table--border {
+    border: 1px solid #ddd;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    .el-table__header{
+      th, tr{
+        background-color: #fafafa;
+        border-right:none;
+      }
+    }
+  }
+   [class*=el-table__row--level] .el-table__expand-icon {
+    float: right;
+  }
+  td, th {
+    height: 52px;
+    border-bottom: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 17px;
+    letter-spacing: 0px;
+    color: #222222;
+  }
+  .el-table__placeholder{
+    display: none;
+  }
+  .table-header-title{
+    float: right;
+    color: #00afff;
+    margin-right: 12px;
+  } 
+}
+// dialog样式
+.dialog-main{
+  .el-dialog{
+    width: 1270px;
+    background-color: #f4f4f4;
+    box-shadow: 0px 2px 10px 0px 
+      rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 80%;
+  }
+  &.height70 .el-dialog{
+    height: 70%;
+  }
+  &.height60 .el-dialog{
+    height: 60%;
+  }
+  &.height50 .el-dialog{
+    height: 50%;
+  }
+  &.height40 .el-dialog{
+    height: 40%;
+  }
+  &.height30 .el-dialog{
+    height: 30%;
+  }
+  .el-dialog__header{
+    height: 50px;
+    line-height: 50px;
+    padding:0 30px;
+    font-family: PingFangSC-Semibold;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #222222;
+    .el-dialog__headerbtn{
+      background: #222222;
+      border-radius: 50%;
+      color: #fff;
+      height: 20px;
+      width: 20px;
+      top:16px;
+      right: 30px;
+      .el-dialog__close {
+        color: #fff;
+      }
+    }
+  }
+  .el-dialog__body{
+    background-color: #fff;
+    box-shadow: 0px 2px 10px 0px 
+      rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding:20px 30px 20px 30px;
+    overflow: auto;
+    height: calc(100% - 110px);
+  }
+  &.noPaddingRight{
+    .el-dialog__body{
+      padding-right:0;
+    }
+  }
+  .el-dialog__footer{
+    height: 60px;
+    line-height: 60px;
+    padding:0 30px;
+    position: relative;
+    .dialog-error-msg{
+      position: absolute;
+      left: 30px;
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      letter-spacing: 0px;
+      color: #fb664a;
+    }
+  }
+}
+
+.el-button--primary{
+  background-color: #00afff;
+  border-color: #00afff;
+}
+
+ .el-breadcrumb__inner, .el-breadcrumb__inner a{
+  font-weight: 400!important;
+}
+
+ .el-upload {
+   input[type="file"] {
+     display: none !important;
+   }
+ }
+
+ .el-upload__input {
+   display: none;
+ }
+
+ .cell {
+   .el-tag {
+     margin-right: 0px;
+   }
+ }
+
+ .small-padding {
+   .cell {
+     padding-left: 5px;
+     padding-right: 5px;
+   }
+ }
+
+ .fixed-width{
+  .el-button--mini{
+    padding: 7px 10px;
+    width: 60px;
+  }
+ }
+
+ .status-col {
+   .cell {
+     padding: 0 10px;
+     text-align: center;
+     .el-tag {
+       margin-right: 0px;
+     }
+   }
+ }
+
+ //暂时性解决dialog 问题 https://github.com/ElemeFE/element/issues/2461
+ .el-dialog {
+   transform: none;
+   left: 0;
+   position: relative;
+   margin: 0 auto;
+ }
+  .el-dialog__header,.el-dialog__footer{
+    background-color: #F3F3F3;
+  }
+ //文章页textarea修改样式
+ .article-textarea {
+   textarea {
+     padding-right: 40px;
+     resize: none;
+     border: none;
+     border-radius: 0px;
+     border-bottom: 1px solid #bfcbd9;
+   }
+ }
+
+ //element ui upload
+ .upload-container {
+   .el-upload {
+     width: 100%;
+     .el-upload-dragger {
+       width: 100%;
+       height: 200px;
+     }
+   }
+ }
+
+//dropdown
+ .el-dropdown-menu{
+  a{
+    display: block
+  }
+}
+
+//date-picker 只选择小时
+.el-picker-panel.el-date-picker.el-popper.has-time.only-has-hour{
+  .el-time-panel.el-popper{
+    width:150px;
+    .el-time-spinner__wrapper.el-scrollbar{
+      width:100%;
+    }
+  }
+}
