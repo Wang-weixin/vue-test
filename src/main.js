@@ -44,7 +44,7 @@ Vue.prototype.validateLimit = function(size) {
       if (value.length <= size) {
         callback()
       } else {
-        callback(new Error('最多输入' + size + '个字'))
+        callback(new Error('最多输入' + size + '个字符'))
       }
     }
   }
